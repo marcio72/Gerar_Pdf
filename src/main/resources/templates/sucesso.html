@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>PDF Gerado</title>
+</head>
+<body>
+    <h2>PDF gerado com sucesso!</h2>
+    <p th:text="'Arquivo salvo em: ' + ${caminhoPdf}"></p>
+    <a href="/">Gerar outro PDF</a>
+</body>
+</html>
